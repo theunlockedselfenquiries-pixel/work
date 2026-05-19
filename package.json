@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-receipt-forwarder",
+  "version": "1.0.0",
+  "description": "Forwards WhatsApp group receipt images to email via Resend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@wppconnect-team/wppconnect": "^1.31.0",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "resend": "^3.2.0"
+  }
+}
