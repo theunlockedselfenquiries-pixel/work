@@ -1,0 +1,18 @@
+# Resend (email)
+RESEND_API_KEY=               # From resend.com dashboard
+FROM_EMAIL=receipts@yourdomain.com
+TO_EMAIL=you@outlook.com
+
+# Cloudflare R2 (image storage)
+R2_ACCOUNT_ID=
+R2_ACCESS_KEY_ID=
+R2_SECRET_ACCESS_KEY=
+R2_BUCKET_NAME=receipts
+
+# WhatsApp group filter (optional but recommended)
+# Set to a partial name of your group e.g. "Receipts" or "Team Expenses"
+# Leave blank to capture images from ALL groups your number is in
+TARGET_GROUP_NAME=
+
+# Manual digest trigger
+TRIGGER_SECRET=               # Any random string you choose
